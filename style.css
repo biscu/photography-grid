@@ -41,7 +41,7 @@ body {
 }
 
 .name-container {
-	padding: 60px;
+	padding: 100px;
 	display: flex;
 	flex-direction: row;
 	position: relative;
@@ -59,10 +59,11 @@ body {
 
 .part {
 	max-height: 100vh;
-	min-width: 400px;
+	min-width: auto;
 	height: 100vh;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
+	margin-right: 100px;
 }
 
 element::-webkit-scrollbar {
