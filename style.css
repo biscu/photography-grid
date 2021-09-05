@@ -2,6 +2,11 @@ html {
 	height: -webkit-fill-available;
 	scroll-behavior: smooth;
 }
+
+@font-face {
+	font-family: "Stelvio";
+	src: url("font/StelvioGroteskRegular.ttf") format("truetype");
+}
 .c-scrollbar {
 	display: none;
 }
@@ -31,9 +36,30 @@ body {
 	max-height: 500px;
 }
 
+.name-inner {
+	width: 100%;
+}
+
+.name-container {
+	padding: 60px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	align-items: center;
+	height: auto;
+}
+
+.name {
+	font-size: 2em;
+	overflow-wrap: break-word;
+	font-family: 'Stelvio', sans-serif;
+	font-weight: 200;
+	width: 100%;
+}
+
 .part {
 	max-height: 100vh;
-	min-width: 30vw;
+	min-width: 400px;
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
