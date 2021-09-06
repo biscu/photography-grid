@@ -41,7 +41,7 @@ body {
 }
 
 .name-container {
-	padding: 60px;
+	padding: 100px;
 	display: flex;
 	flex-direction: row;
 	position: relative;
@@ -53,16 +53,17 @@ body {
 	font-size: 2em;
 	overflow-wrap: break-word;
 	font-family: 'Stelvio', sans-serif;
-	font-weight: 200;
+	font-weight: 100;
 	width: 100%;
 }
 
 .part {
 	max-height: 100vh;
-	min-width: 400px;
+	min-width: auto;
 	height: 100vh;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
+	margin-right: 100px;
 }
 
 element::-webkit-scrollbar {
