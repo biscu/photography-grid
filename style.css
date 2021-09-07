@@ -42,9 +42,14 @@ body {
 	justify-content: flex-start;
 }
 
+.content {
+	background-color: beige;
+}
+
 .image-gallery {
 	max-height: 500px;
 	min-width:200px;
+
 }
 
 .name-inner {
