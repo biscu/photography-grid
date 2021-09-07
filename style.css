@@ -21,11 +21,19 @@ body {
 }
 .content-container{
 	width: 100%;
-	height: auto;
+	height: 100vh;
+	display: flex;
+}
+
+.name-container {
+	display: flex !important;
+	align-items: center;
 }
 
 .item-pic {
 	margin-right:100px;
+	align-items: center;
+	display: flex !important;
 }
 
 .content-container {
@@ -40,6 +48,8 @@ body {
 
 .name-inner {
 	width: 100%;
+	padding-left:200px;
+	padding-right: 200px;
 }
 
 .name {
