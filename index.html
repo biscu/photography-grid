@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/locomotivemtl/locomotive-scroll/master/dist/locomotive-scroll.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://raw.githubusercontent.com/locomotivemtl/locomotive-scroll/master/dist/locomotive-scroll.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <div data-scroll-container class="smoothScroll">
-        <div class="content-container">
+  <div data-scroll-container class="smoothScroll">
+    <div class="content-container">
 
-            <section class="name-container">
-              <article class="name-inner">
-                  <h1 class="name">Davide Biscuso’s digital <br> and film portraits</h1>
-              </article>
-            </section>
+      <section class="name-container">
+        <article class="name-inner">
+          <h1 class="name">Davide Biscuso’s digital <br> and film photography</h1>
+        </article>
+      </section>
 
 
-          <section class="part">
-            <article class="content">
-                <img class="image-gallery" src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872666/DSC06970_eq5rhb.jpg">
-            </article>
-          </section>
-          <section class="part">
-            <article class="content">
-                <img class="image-gallery" src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872665/DSC06907_clfi31.jpg">
-            </article>
-          </section>
-          <section class="part">
-            <article class="content">
-                <img class="image-gallery" src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872667/DSC07267_x6zvea.jpg">
-            </article>
-          </section>
-      
-      
-        </div>
-      
-      </div>
-    
+      <section class="part">
+        <article class="content">
+
+          <div class='lr_embed' style='position: relative; padding-bottom: 50%; height: 0; overflow: hidden;'><iframe
+              id='iframe'
+              src='https://lightroom.adobe.com/embed/shares/d2db64617f75439e9d44eb9ab66947bd/slideshow?background_color=%232D2D2D&color=%23999999'
+              frameborder='0' style='width:100%; height:100%; position: absolute; top:0; left:0;'></iframe></div>
+          <img class="image-gallery"
+            src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872666/DSC06970_eq5rhb.jpg">
+        </article>
+      </section>
+      <section class="part">
+        <article class="content">
+          <img class="image-gallery"
+            src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872665/DSC06907_clfi31.jpg">
+        </article>
+      </section>
+      <section class="part">
+        <article class="content">
+          <img class="image-gallery"
+            src="https://res.cloudinary.com/dzqdcgh6e/image/upload/v1630872667/DSC07267_x6zvea.jpg">
+        </article>
+      </section>
+
+
+    </div>
+
+  </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
 <script src="horizontal-scroll.js"></script>
 <script>
-    (function () {
-        var scroll = new LocomotiveScroll();
-    })();
+  (function () {
+    var scroll = new LocomotiveScroll();
+  })();
 </script>
+
 </html>
